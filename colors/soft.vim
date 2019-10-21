@@ -9,8 +9,6 @@
 
 """""""""""""""""""""""[ Init ]
 
-set background=dark
-
 if exists("syntax on")
   syntax reset
 endif
@@ -25,7 +23,7 @@ let g:colors_name = "austere"
 " 4     Blue
 " 214   Yellow
 "
-" 235   Black
+" 232   Black
 " 242   Dark-ish Dark Grey
 " 245   Dark Grey
 " 250   Grey
@@ -36,8 +34,8 @@ let g:colors_name = "austere"
 """""""""""""""""""""""[ Actual scheme ]
 
 " Greys
-hi Normal              ctermfg=250  ctermbg=235  cterm=NONE
-hi NonText             ctermfg=235  ctermbg=NONE cterm=NONE
+hi Normal              ctermfg=250  ctermbg=232  cterm=NONE
+hi NonText             ctermfg=232  ctermbg=NONE cterm=NONE
 hi Special             ctermfg=250  ctermbg=NONE cterm=NONE
 hi Constant            ctermfg=250  ctermbg=NONE cterm=NONE
 hi htmlTagName         ctermfg=250  ctermbg=NONE cterm=NONE
@@ -46,17 +44,17 @@ hi Boolean             ctermfg=245  ctermbg=NONE cterm=bold
 hi Type                ctermfg=250  ctermbg=NONE cterm=NONE
 hi Function            ctermfg=255  ctermbg=NONE cterm=NONE
 hi Repeat              ctermfg=245  ctermbg=NONE cterm=NONE
-hi linenr              ctermfg=242  ctermbg=235  cterm=NONE
-hi Visual              ctermfg=235  ctermbg=250  cterm=NONE
-hi SpecialKey          ctermfg=235  ctermbg=NONE cterm=NONE
+hi linenr              ctermfg=242  ctermbg=232  cterm=NONE
+hi Visual              ctermfg=232  ctermbg=250  cterm=NONE
+hi SpecialKey          ctermfg=232  ctermbg=NONE cterm=NONE
 hi MatchParen          ctermfg=250  ctermbg=245  cterm=NONE
 
 hi ColorColumn         ctermfg=NONE ctermbg=236  cterm=NONE
 hi Cursor              ctermfg=NONE ctermbg=NONE cterm=NONE
-hi CursorLine          ctermfg=NONE ctermbg=235  cterm=NONE
+hi CursorLine          ctermfg=NONE ctermbg=232  cterm=NONE
 hi CursorLineNR        ctermfg=250  ctermbg=NONE cterm=NONE
-hi VertSplit           ctermfg=235  ctermbg=235  cterm=NONE
-hi SignColumn          ctermfg=235  ctermbg=235  cterm=NONE
+hi VertSplit           ctermfg=232  ctermbg=232  cterm=NONE
+hi SignColumn          ctermfg=232  ctermbg=232  cterm=NONE
 
 " Search when cursor is on word
 hi IncSearch           ctermfg=250  ctermbg=NONE cterm=NONE
@@ -74,8 +72,8 @@ hi Operator            ctermfg=255  ctermbg=NONE cterm=NONE
 hi Error               ctermfg=1    ctermbg=NONE cterm=NONE
 
 " Autocomplete menu
-hi Pmenu               ctermfg=250  ctermbg=235  cterm=NONE
-hi PmenuSel            ctermfg=235  ctermbg=250  cterm=NONE
+hi Pmenu               ctermfg=250  ctermbg=232  cterm=NONE
+hi PmenuSel            ctermfg=232  ctermbg=250  cterm=NONE
 
 hi PreProc             ctermfg=245  ctermbg=NONE cterm=NONE
 
